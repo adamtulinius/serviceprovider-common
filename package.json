@@ -2,10 +2,10 @@
   "name": "serviceprovider-common",
   "version": "0.0.1",
   "description": "Code shared between Serviceprovider and Smaug",
-  "main": "src/main.js",
+  "main": "index.js",
   "scripts": {
     "lint": "eslint ./src",
-    "test": "mocha --compilers js:babel/register --recursive src/**/__tests__/*",
+    "test": "mocha --compilers js:babel/register --recursive src/**/*.test.js",
     "test:single": "mocha --compilers js:babel/register"
   },
   "repository": {
